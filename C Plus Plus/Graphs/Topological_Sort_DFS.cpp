@@ -90,7 +90,8 @@ int main()
 
     cout << "Following is a Topological Sort of the given graph \n";
     g.topologicalSort();
-
+//    Time Complexity - > O(V+E)
+//    Space Complexity -> O(V).
     return 0;
 }
 

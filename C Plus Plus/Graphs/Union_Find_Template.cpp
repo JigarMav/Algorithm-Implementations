@@ -57,6 +57,11 @@ int main() {
     UnionFind *uf = new UnionFind(n);
     // uf->union_operation(i,j)
     // uf->find(i)
+
+    /*
+    Time  - > O(Log*N)
+    Space - > O(N)
+    */
     return 0;
 }
 }
