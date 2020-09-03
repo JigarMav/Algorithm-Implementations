@@ -1,3 +1,6 @@
+// Time - O(N2)
+// Space - O(N)
+
 class Solution
 {
 public:
@@ -31,5 +34,7 @@ public:
             }
         }
         return area == INT_MAX ? 0 : area;
+        
+        
     }
 };
