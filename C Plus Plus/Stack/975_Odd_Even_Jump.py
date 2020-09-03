@@ -54,6 +54,5 @@ class Solution:
             while stack and i > stack[-1]:
                 result[stack.pop()] = i
             stack.append(i)
-        # delete stack as a memory optimization
-        del stack
+      
         return result
