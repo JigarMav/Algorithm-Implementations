@@ -4,6 +4,8 @@
 // 3. We need to return how many indexes can actually reach the end.
 // 4. We assume that last position is reachable from an odd and even jump.
 
+//Time - O(NLogN)
+//space - O(N).
 class Solution {
 public:
     int oddEvenJumps(vector<int>& A) {
